@@ -1,3 +1,3 @@
 # StewartSite
 DeAngelo Resume Site
-![](Images/Site.GIF)
+![](Images/Site.jpg)
