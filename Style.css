@@ -203,3 +203,16 @@ body {
   display: table;
   clear: both; 
   }
+
+.WorkH{
+  width:100px;
+  height:100px;
+  background-size:contain;
+  background-position:center;
+  border-radius:50%;
+}
+.WorkH img{
+  max-width:100%;
+  max-height:100%;
+ 
+}
