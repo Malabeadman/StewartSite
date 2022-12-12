@@ -164,6 +164,26 @@
     z-index: -10;
   }
 
+  .workBtn {
+  background-color: #6dc3d4;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.workBtn:hover {opacity: 1}
+
+.workElement{
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
   a,
   a:visited,
   a:hover {
@@ -294,8 +314,8 @@
       transform: rotate(-5deg);
     }
   }
-
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+  
+  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   background-color: transparent;
   width: 300px;
@@ -306,7 +326,7 @@
 
 /* This container is needed to position the front and back side */
 .flip-card-inner {
-  position: relative;
+  position: fixed;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -381,68 +401,67 @@ flex-wrap: wrap;
   </div>
 
   <div class="highlight">
-    <h2> Work Highlights</h2>
-    <ul>
-      <li>
-        NewWorldNow
-      </li>
-      <li>
-        Jet Constellations
-      </li>
-      <li>
-        TeachSafe
-      </li>
-    </ul>
+
+    <div class="workcards">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="/assets/images/newworld.png" alt="Avatar" style="width:100%;height:100%;">
+          </div>
+          <div class="flip-card-back">
+            <h1>NewWorldNow</h1>
+            <p>Software Developer</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="/assets/images/TeachsafeThin.png" alt="Avatar" style="width:100%;height:100%;">
+          </div>
+          <div class="flip-card-back">
+            <h1>TeachSafe</h1>
+            <p>FullStack Developer</p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="/assets/images/JetConstellations.png" alt="Avatar" style="width:100%;height:100%;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Jet Constellations</h1>
+            <p>Technical Product Manager</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <div class="work">
     <h2>Technical Product Manger</h2>
+    <div class="workElement"> 
+    
+      <button class="workBtn">More Info</button>
+    </div>
   </div>
   <div class="work">
     <h2>Software Developer</h2>
+    <div class="workElement"> 
+    
+      <button class="workBtn">More Info</button>
+    </div>
   </div>
   <div class="work">
     <h2>Freelance Website Development</h2>
-  </div>
-
-<div class="workcards">
-  <div class="flip-card">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <img src="/assets/images/newworld.png" alt="Avatar" style="width:300px;height:300px;">
-      </div>
-      <div class="flip-card-back">
-        <h1>John Doe</h1>
-        <p>Architect & Engineer</p>
-        <p>We love that guy</p>
-      </div>
-    </div>
-  </div>
-  <div class="flip-card">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <img src="/assets/images/TeachSafe.jpeg" alt="Avatar" style="width:300px;height:300px;">
-      </div>
-      <div class="flip-card-back">
-        <h1>John Doe</h1>
-        <p>Architect & Engineer</p>
-        <p>We love that guy</p>
-      </div>
+    <div class="workElement"> 
+    
+      <button class="workBtn">More Info</button>
     </div>
   </div>
 
-  <div class="flip-card">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <img src="/assets/images/JetConstellations.png" alt="Avatar" style="width:300px;height:300px;">
-      </div>
-      <div class="flip-card-back">
-        <h1>Jet Constellations</h1>
-        <p>Technical Product Manager</p>
-      </div>
-    </div>
-  </div>
-</div>
 
   <div class="skills">
     <h2> Skills</h2>
