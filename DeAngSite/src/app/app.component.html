@@ -164,24 +164,34 @@
     z-index: -10;
   }
 
+  .work{
+    padding-top: 5px;
+  }
+
   .workBtn {
-  background-color: #6dc3d4;
+  background-color: #8d90ee;
   border: none;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 16px 32px;
   text-align: center;
   font-size: 16px;
   margin: 4px 2px;
   opacity: 0.6;
-  transition: 0.3s;
 }
+
 .workBtn:hover {opacity: 1}
 
 .workElement{
+  border: 4px solid #1976d2;
+
+  background-color: #888;
+  background-image: url(assets/images/stars.jpeg);
   margin: auto;
-  width: 50%;
-  border: 3px solid green;
+  width: 80%;
   padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+
 }
 
   a,
@@ -315,7 +325,7 @@
     }
   }
   
-  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+   /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   background-color: transparent;
   width: 300px;
@@ -441,23 +451,23 @@ flex-wrap: wrap;
   </div>
 
   <div class="work">
-    <h2>Technical Product Manger</h2>
-    <div class="workElement"> 
-    
+    <div class="workElement" >
+      <h2 style="color:#eee"> Product Manger</h2>
       <button class="workBtn">More Info</button>
     </div>
   </div>
+
   <div class="work">
-    <h2>Software Developer</h2>
     <div class="workElement"> 
-    
+
       <button class="workBtn">More Info</button>
+      <h2>Software Developer</h2>
     </div>
   </div>
+
   <div class="work">
-    <h2>Freelance Website Development</h2>
     <div class="workElement"> 
-    
+      <h2>Freelance Website Development</h2>
       <button class="workBtn">More Info</button>
     </div>
   </div>
