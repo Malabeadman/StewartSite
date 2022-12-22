@@ -14,7 +14,9 @@ import { HomeComponent } from './home/home.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    RouterModule.forRoot([  {path: '', component: HomeComponent},
+    {path: 'Experience', component: ExperienceComponent }
+  ]),
   ],
   exports: [RouterModule],
   providers: [],
