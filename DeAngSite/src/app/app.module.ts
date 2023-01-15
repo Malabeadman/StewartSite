@@ -20,6 +20,6 @@ import { HomeComponent } from './home/home.component';
   ],
   exports: [RouterModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent, HomeComponent, ExperienceComponent]
 })
 export class AppModule { }
