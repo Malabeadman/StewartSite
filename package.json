@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "bootstrap": "^5.2.3",
-    "jquery": "^3.6.1"
+    "jquery": "^3.6.1",
+    "mdb-angular-ui-kit": "^4.0.0"
   }
 }

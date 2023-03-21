@@ -7,6 +7,8 @@ import { HomeComponent } from './home/home.component';
 import { WorkComponent } from './work/work.component';
 import { ProjectsComponent } from './projects/projects.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,10 +20,11 @@ import { ProjectsComponent } from './projects/projects.component';
     BrowserModule,
     RouterModule.forRoot([  {path: '', component: HomeComponent},
     {path: 'Work', component: WorkComponent },
-    {path: 'Projects', component: ProjectsComponent }
+    {path: 'Projects', component: ProjectsComponent },
+
   ]),
-    AppRoutingModule
-  ],
+    AppRoutingModule,
+  ], 
   providers: [],
   bootstrap: [AppComponent]
 })
