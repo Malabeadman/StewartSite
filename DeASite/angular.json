@@ -101,7 +101,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/JS/Simple.js"
+            ]
           }
         }
       }
