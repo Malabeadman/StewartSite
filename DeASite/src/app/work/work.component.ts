@@ -12,6 +12,7 @@ export class WorkComponent implements OnInit {
 
   ngOnInit(): void {
     alertLoaded();
+    
   }
 
 }
