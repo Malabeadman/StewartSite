@@ -1,5 +1,4 @@
-console.clear();
-console.log("Walla");
+
 const { gsap, imagesLoaded } = window;
 
 const buttons = {
@@ -253,3 +252,5 @@ const waitForImages = () => {
 };
 
 waitForImages();
+
+

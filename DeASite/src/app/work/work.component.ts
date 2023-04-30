@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import {alertLoaded} from '/Users/deangelostewart/Desktop/MaHome/Projects/StewartSite/DeASite/src/assets/JS/Simple.js';
+
+//import {alertLoaded} from '/Users/deangelostewart/Desktop/MaHome/Projects/StewartSite/DeASite/src/assets/JS/Simple.js';
+
+declare var alertLoaded: any;
 
 @Component({
   selector: 'app-work',
@@ -8,11 +11,14 @@ import {alertLoaded} from '/Users/deangelostewart/Desktop/MaHome/Projects/Stewar
 })
 export class WorkComponent implements OnInit {
 
-  constructor() { }
+  clickAlert(){
+    alertLoaded(); 
+  }
+
+
+  constructor() {      }
 
   ngOnInit(): void {
-    alertLoaded();
-    
   }
 
 }
